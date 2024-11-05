@@ -1,0 +1,121 @@
+#tagline {
+    color: #0c7690;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    scroll-behavior:smooth;
+}
+
+.btn-color {
+    color: #0c7690;
+    background-color: white;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 6px;
+}
+
+.btn-color:hover {
+    color: #03586d;
+}
+
+
+.card-size {
+    height: 400px;
+    width: 400px;
+}
+
+.set-img-size {
+    height: 350px;
+    object-fit: cover;
+}
+
+.img-icon {
+    height: 70px;
+    width: 70px;
+}
+
+.img-icon:hover{
+    opacity: 0.9;
+}
+
+.text-style {
+    color: #0c7690;
+    font-weight: bold;
+}
+
+#footer-color {
+    background-color: #03586d;
+    color: white;
+}
+
+.social-icon {
+   text-decoration: none;
+   color: white;
+   height: 100px;
+   width: 95px;
+}
+
+.social-icon:hover{
+    color: white;
+}
+
+.border-custom {
+    border: 1px solid #03586d9c;
+    border-radius: 3px;
+}
+
+.portfolio-img:hover {
+    opacity: 0.9;
+    border: 1px solid #03586d;
+    border-radius: 3px;
+}
+
+.anchor-hover-effect:hover{
+    text-decoration-line: underline;
+}
+
+.anchor-hover-effect:active{
+    font-weight: bold;
+}
+
+#section{
+    background-image: linear-gradient( to bottom,#03586d, #81c4d4, #03586d, #81c4d4);
+}
+
+.price-style{
+    background-color: white;
+    color: #03586d;
+    margin: 10px auto;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+
+.footer{
+    background-color: #03586d; color: white;
+}
+
+/* Media Query */
+@media only screen and (max-width:768px){
+    .card-package{
+        margin-bottom: 10px;
+        /* width: 22rem; */
+    }
+}
+@media only screen and (max-width:415px){
+    .card-size {
+        height: 400px;
+        width: 23.8rem;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width:375px){
+    .card-size {
+        height: 400px;
+        width: 21rem;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+}
